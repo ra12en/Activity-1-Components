@@ -1,0 +1,92 @@
+<!--
+Create a web app using Angular. The page will contain the following parts:
+1. Personal Info
+2. Contact Info
+3. Educational Background
+4. Work Experience
+Use different components for each part. Use  bootstrap for the design.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container p-5 my-5 bg-info text-white">
+  <h1>Educational Background</h1>
+  <p>Raizen Planas</p> 
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Elementary School
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <dl class="row">
+            <dt class="col-sm-3">School Attended</dt>
+            <dd class="col-sm-9">Kids Holy Crown Academy</dd>
+            <dt class="col-sm-3">Location</dt>
+            <dd class="col-sm-9">Blk. 20 Road 40 Planters West Floodway 1900 Cainta Rizal </dd>
+            <dt class="col-sm-3">Year Attended</dt>
+            <dd class="col-sm-9">Grade 1 - Grade 6 (2009-2015)</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          High School
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <dl class="row">
+            <dt class="col-sm-3">School Attended</dt>
+            <dd class="col-sm-9">Star of Hope Christian School</dd>
+            <dt class="col-sm-3">Location</dt>
+            <dd class="col-sm-9">Ejercito Ave, Sta Ana, Taytay, 1900 Rizal </dd>
+            <dt class="col-sm-3">Year Attended</dt>
+            <dd class="col-sm-9">1st year high school - 4th year high school (2015-2019)</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          College
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <dl class="row">
+            <dt class="col-sm-3">Course</dt>
+            <dd class="col-sm-9">Bachelor of Science in Information Technology</dd>
+            <dt class="col-sm-3">School Attended</dt>
+            <dd class="col-sm-9">Colegio De San Juan De Letran</dd>
+            <dt class="col-sm-3">Location</dt>
+            <dd class="col-sm-9">151 Muralla Street 1002 Manila National Capital Region</dd>
+            <dt class="col-sm-3">Year Attended</dt>
+            <dd class="col-sm-9">1st year College - 4th year College (2019-Present)</dd>
+            <dt class="col-sm-3">Expected Graduation Date</dt>
+            <dd class="col-sm-9">May, 2024</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
